@@ -233,6 +233,20 @@ escape-string-regexp@^1.0.5:
   resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+eslint-config-prettier@^6.7.0:
+  version "6.7.0"
+  resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/eslint-config-prettier/-/eslint-config-prettier-6.7.0.tgz#9a876952e12df2b284adbd3440994bf1f39dfbb9"
+  integrity sha1-modpUuEt8rKErb00QJlL8fOd+7k=
+  dependencies:
+    get-stdin "^6.0.0"
+
+eslint-plugin-prettier@^3.1.1:
+  version "3.1.1"
+  resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/eslint-plugin-prettier/-/eslint-plugin-prettier-3.1.1.tgz#507b8562410d02a03f0ddc949c616f877852f2ba"
+  integrity sha1-UHuFYkENAqA/DdyUnGFvh3hS8ro=
+  dependencies:
+    prettier-linter-helpers "^1.0.0"
+
 eslint-scope@^5.0.0:
   version "5.0.0"
   resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/eslint-scope/-/eslint-scope-5.0.0.tgz#e87c8887c73e8d1ec84f1ca591645c358bfc8fb9"
@@ -348,6 +362,11 @@ fast-deep-equal@^2.0.1:
   resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
 
+fast-diff@^1.1.2:
+  version "1.2.0"
+  resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/fast-diff/-/fast-diff-1.2.0.tgz#73ee11982d86caaf7959828d519cfe927fac5f03"
+  integrity sha1-c+4RmC2Gyq95WYKNUZz+kn+sXwM=
+
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
@@ -395,6 +414,11 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
+
+get-stdin@^6.0.0:
+  version "6.0.0"
+  resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
+  integrity sha1-ngm/cSs2CrkiXoEgSPcf3pyJZXs=
 
 glob-parent@^5.0.0:
   version "5.1.0"
@@ -653,6 +677,18 @@ prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
+
+prettier-linter-helpers@^1.0.0:
+  version "1.0.0"
+  resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"
+  integrity sha1-0j1B/hN1ZG3i0BBNNFSjAIgCz3s=
+  dependencies:
+    fast-diff "^1.1.2"
+
+prettier@^1.19.1:
+  version "1.19.1"
+  resolved "http://edge.artifactory.corp.yahoo.co.jp:8000/artifactory/api/npm/apj-npm/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
+  integrity sha1-99f1/4qc2HKnvkyhQglZVqYHl8s=
 
 progress@^2.0.0:
   version "2.0.3"
